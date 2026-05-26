@@ -171,7 +171,7 @@ inline void DrawBillboardStrategy::DispParticle_Normal(
         f32 dx0 = sx * px;
         f32 dy0 = sy * py;
 
-        float exp0 = px - dx0;
+        f32 exp0 = px - dx0;
         float exp1 = py - dy0;
 
         p0.x = vy_rc * exp0 + vy_rs * exp1 + pos.x;
